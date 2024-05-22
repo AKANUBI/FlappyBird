@@ -1,0 +1,583 @@
+!SESSION 2024-05-08 11:04:45.868 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-05-08 11:05:09.040
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-08 11:06:13.719
+!MESSAGE Indexed 'FlappyBird' (3 sources, 5 headers) in 0.235 sec: 68 declarations; 1,150 references; 17 unresolved inclusions; 0 syntax errors; 55 unresolved names (4.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-05-08 11:06:59.035
+!MESSAGE Indexed 'FlappyBird_bsp' (80 sources, 151 headers) in 0.743 sec: 5,264 declarations; 8,284 references; 43 unresolved inclusions; 3 syntax errors; 88 unresolved names (0.65%)
+!SESSION 2024-05-08 12:31:20.136 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-08 12:31:28.572
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-05-08 12:31:34.962
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:31:47.708
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --id=0x0 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:31:52.420
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --id=0x0 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:56:30.481
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --id=0x0 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:56:32.961
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --id=0x0 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:57:25.817
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 12:57:28.132
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:01:14.523
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:01:16.875
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:28:12.588
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:28:14.734
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:31:10.982
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:31:13.201
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:59:25.422
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 16:59:27.571
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:02:01.702
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:02:03.870
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:13:20.126
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:13:22.270
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:16:55.080
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:16:57.222
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:20:50.511
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:20:52.732
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:24:58.499
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:25:00.816
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:27:39.073
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:27:41.261
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:31:54.618
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:31:56.833
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:33:57.251
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:33:59.338
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:36:39.391
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:36:41.559
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:40:28.717
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:40:30.970
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:42:36.041
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:42:38.214
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:49:12.154
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:49:14.267
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:52:11.045
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:52:13.148
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:54:39.242
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 17:54:41.501
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:07:20.294
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:07:22.493
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:18:51.389
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:18:53.583
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:28:59.971
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:29:02.276
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:29:48.484
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:29:50.660
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:37:04.185
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:37:06.363
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:40:06.379
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:40:08.808
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:41:18.266
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:41:20.404
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:43:52.194
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:43:54.376
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:46:38.744
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:46:40.940
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:49:46.331
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:49:48.532
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:51:41.200
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:51:43.484
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:56:43.419
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xa8 --timestamp=1714913161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-08 18:56:45.574
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xa8 --timestamp=1714913161 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+!SESSION 2024-05-09 11:27:05.244 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-09 11:27:07.919
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-05-09 11:27:20.790
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 11:56:02.901
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715226560]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 11:56:06.902
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715226560 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:30:55.448
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb8]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:30:57.652
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb8 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:35:07.802
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:35:10.211
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:37:46.467
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:37:48.767
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:40:20.717
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:40:22.930
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:42:21.212
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:42:23.550
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:44:25.865
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 12:44:28.164
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:05:40.198
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:05:42.586
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:07:43.083
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:07:43.874
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:07:46.270
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:08:36.032
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:08:36.871
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:08:39.236
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:10:35.884
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:10:36.762
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:10:39.166
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:12:22.672
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:12:24.986
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:50:55.339
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:50:57.691
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:59:52.211
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 13:59:54.537
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 14:03:17.473
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 14:03:19.636
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:01:19.372
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:01:22.023
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:03:48.888
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:03:51.160
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:07:51.297
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:07:53.559
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:29:09.791
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 16:29:12.008
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+!SESSION 2024-05-09 19:59:53.796 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-09 19:59:55.666
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-05-09 20:00:04.567
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:00:13.614
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:00:15.946
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:04:03.054
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:04:05.532
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+!SESSION 2024-05-09 20:15:40.442 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization D:/app/quartus/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-09 20:15:42.256
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-05-09 20:15:53.021
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:15:58.926
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:16:01.328
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:16:24.235
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:16:26.696
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:20:04.933
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:20:07.397
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:29:18.542
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:29:20.754
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:34:30.061
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:34:32.486
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:42:11.181
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:42:13.790
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:45:56.602
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:45:59.063
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:58:24.913
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 20:58:27.300
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:04:58.456
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:05:00.923
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:11:16.656
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:11:19.108
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:14:06.706
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:14:08.940
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:16:29.869
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:16:32.310
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:21:28.326
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:21:30.606
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:23:45.692
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:23:48.021
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:35:42.762
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:35:45.107
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:42:54.826
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:42:57.234
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:44:05.932
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb8 --timestamp=1715227431]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-05-09 21:44:08.290
+!MESSAGE Executing: [D:/app/quartus/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb8 --timestamp=1715227431 /cygdrive/d/Project/385Final/main/software/fp/fp.elf]

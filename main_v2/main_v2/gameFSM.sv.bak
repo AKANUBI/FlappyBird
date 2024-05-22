@@ -1,0 +1,62 @@
+module GameFSM (
+    input         clk,          // 时钟信号
+    input         reset,        // 复位信号
+    input         space_trigger, // 开始游戏的触发信号，例如按下空格键
+    input         collision,    // 碰撞检测信号
+    output logic  game_active,  // 游戏是否处于活跃状态
+    output logic  game_over,    // 游戏是否结束
+    output logic  display_start // 是否显示开始界面
+);
+
+
+// 状态定义
+    typedef enum logic [1:0] {
+        STATE_START_PAGE = 2'b00,
+        STATE_GAME_ACTIVE = 2'b01,
+        STATE_GAME_OVER = 2'b10
+    } state_t;
+
+    // 当前状态和下一状态变量
+    state_t current_state, next_state;
+
+    // 状态转换逻辑
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset) begin
+            current_state <= STATE_START_PAGE;
+        end else begin
+            current_state <= next_state;
+        end
+    end
+
+    // 确定下一个状态
+    always_comb begin
+        case (current_state)
+            STATE_START_PAGE: begin
+                if (start_trigger)
+                    next_state = STATE_GAME_ACTIVE;
+                else
+                    next_state = STATE_START_PAGE;
+            end
+
+            STATE_GAME_ACTIVE: begin
+                if (collision)
+                    next_state = STATE_GAME_OVER;
+                else
+                    next_state = STATE_GAME_ACTIVE;
+            end
+
+            STATE_GAME_OVER: begin
+                // 这里可以添加逻辑重置游戏，例如按下特定按键重新开始
+                next_state = STATE_GAME_OVER;  // 暂时保持在游戏结束状态
+            end
+        endcase
+    end
+
+    // 输出控制逻辑
+    always_comb begin
+        game_active = (current_state == STATE_GAME_ACTIVE);
+        game_over = (current_state == STATE_GAME_OVER);
+        display_start = (current_state == STATE_START_PAGE);
+    end
+
+endmodule

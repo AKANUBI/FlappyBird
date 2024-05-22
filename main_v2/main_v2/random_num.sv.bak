@@ -1,0 +1,6 @@
+class RandomGenerator;
+		 rand bit [7:0] random_number;
+		 function void randomize();
+			  random_number = $urandom_range(40, 440); //form a random number from 40 to 440
+		 endfunction
+endclass

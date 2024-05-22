@@ -1,0 +1,21 @@
+module eat_coin(input  Clk,                // 50 MHz clock
+								Reset,              // Active-high reset signal
+					  input  is_coin, is_ball
+					  output logic  eat       
+					  );	
+					  
+	always_ff @ (posedge Clk)
+	begin
+		if (Reset == 1'b1)
+			collision <= 1'b0;
+		else// if ((frame_clk_rising_edge == 1'b1))
+			begin
+				if ((is_ball == 1'b1 && is_pipe == 1'b1) || (is_ball == 1'b1 && is_pipe_edge == 1'b1))
+					begin
+						collision <= 1'b1;
+					end
+				else
+					collision <= 1'b0;
+			end
+	end		
+endmodule

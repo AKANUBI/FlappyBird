@@ -1,0 +1,1935 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/ZJUI/111/ECE385/FPGA-Based-Implementation-of-Doodle-Jump-main/LAB8/lab8new/LAB8/simulation/modelsim
+valtera_avalon_sc_fifo
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1714918935
+!i10b 1
+!s100 AmIg@HKgzRdiLX?Qo8hRz3
+I_^2BnYT0^Dg42z;nG3O;]2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_sc_fifo_v_unit
+S1
+Z3 dD:/ZJUI/111/ECE385/flappybird/main/simulation/modelsim
+Z4 w1714913180
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z5 L0 21
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1714918934.000000
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z8 o-sv -work lab8_soc
+Z9 !s92 -sv -work lab8_soc +incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules
+Z10 tCvgOpt 0
+valtera_avalon_st_clock_crosser
+R0
+Z11 !s110 1714918936
+!i10b 1
+!s100 HXcGESGB1AIK<[k96k8GW3
+IHzknoL=4Go_T@LIc:WC]^2
+R2
+!s105 altera_avalon_st_clock_crosser_v_unit
+S1
+R3
+Z12 w1714913181
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R6
+r1
+!s85 0
+31
+Z13 !s108 1714918936.000000
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R8
+R9
+R10
+valtera_avalon_st_handshake_clock_crosser
+R0
+R1
+!i10b 1
+!s100 f:AU?0BbMgC^cVdTB^k4C0
+ILe7YA@b2WA3N9jSi8b7b=0
+R2
+!s105 altera_avalon_st_handshake_clock_crosser_v_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z14 L0 24
+R6
+r1
+!s85 0
+31
+Z15 !s108 1714918935.000000
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_arb_adder
+R0
+R11
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IM?Z0BIF6388b8[3afVnmQ2
+R2
+Z16 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R3
+R12
+Z17 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z18 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R6
+r1
+!s85 0
+31
+R13
+Z19 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_arbitrator
+R0
+R11
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IITG5e:R?ijH4h13hcF3j_3
+R2
+R16
+S1
+R3
+R12
+R17
+R18
+L0 103
+R6
+r1
+!s85 0
+31
+R13
+R19
+R20
+!i113 1
+R8
+R9
+R10
+valtera_merlin_burst_uncompressor
+R0
+R11
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IZcW84?@O;mLk^o^9LzY]93
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_master_agent
+R0
+R11
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+IM^fI0K=1bQ4X]=MJhc66l2
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_master_translator
+R0
+R11
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+IfV9^V;Jm4jGh;Fz0HLbP>1
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv
+L0 32
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_slave_agent
+R0
+R11
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+IAzPzcWd_<iF3i2cNB97`G2
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+Z21 L0 34
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R8
+R9
+R10
+valtera_merlin_slave_translator
+R0
+R11
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IWRZAeNKa0_bf>oN;knch21
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R8
+R9
+R10
+valtera_reset_controller
+R0
+Z22 !s110 1714918934
+!i10b 1
+!s100 BY0`7TD<QPSCOO[`H0GM11
+I5K4Q5Y86CaCETMWZIMJPG2
+R2
+!s105 altera_reset_controller_v_unit
+S1
+R3
+Z23 w1714913179
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_controller.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R8
+R9
+R10
+valtera_reset_synchronizer
+R0
+R22
+!i10b 1
+!s100 jGF0G[N3WmCeE44bVz8Kc3
+IcS7ONjEU]86dX[R`Vg2b<0
+R2
+!s105 altera_reset_synchronizer_v_unit
+S1
+R3
+R23
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+R14
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R8
+R9
+R10
+valtera_std_synchronizer_nocut
+R0
+R11
+!i10b 1
+!s100 VXZB9eG5R<c?e0Q]eX?@a3
+I;<7E5kf[Z_a6CLk7HfAfc0
+R2
+!s105 altera_std_synchronizer_nocut_v_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc
+R0
+R22
+!i10b 1
+!s100 >[k4OZ=TiYBRnnomdUQ:T3
+Ii5Of]ITjm7TP@H[1Vz6X13
+R2
+!s105 lab8_soc_v_unit
+S1
+R3
+Z24 w1714913166
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/lab8_soc.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/lab8_soc.v
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/lab8_soc.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/lab8_soc.v|
+!i113 1
+R8
+!s92 -sv -work lab8_soc +incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis
+R10
+vlab8_soc_irq_mapper
+R0
+R1
+!i10b 1
+!s100 e@@m<^4RlJQQ9:h<OoCz`1
+IT9>hHRA:f9F4KH2FB0F=z1
+R2
+!s105 lab8_soc_irq_mapper_sv_unit
+S1
+R3
+R23
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_irq_mapper.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_irq_mapper.sv
+L0 31
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_irq_mapper.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_jtag_uart_0
+R0
+R1
+!i10b 1
+!s100 8RgbzZ6X]?f44DS4B3FKX3
+IhBzT;T1AME1NYR>I@Y=_30
+R2
+Z25 !s105 lab8_soc_jtag_uart_0_v_unit
+S1
+R3
+R24
+Z26 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v
+Z27 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v
+L0 331
+R6
+r1
+!s85 0
+31
+R15
+Z28 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v|
+Z29 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_jtag_uart_0_scfifo_r
+R0
+R1
+!i10b 1
+!s100 8Yjjc9TK@Y9TEKj@neRV90
+IMIzlh4kVFaHCf@[>AG?LF0
+R2
+R25
+S1
+R3
+R24
+R26
+R27
+L0 243
+R6
+r1
+!s85 0
+31
+R15
+R28
+R29
+!i113 1
+R8
+R9
+R10
+vlab8_soc_jtag_uart_0_scfifo_w
+R0
+R1
+!i10b 1
+!s100 JE=Y]2U_n<SVZ9fNY=N0;1
+IlFhE;]UFOjaKGQzhk8TQA1
+R2
+R25
+S1
+R3
+R24
+R26
+R27
+L0 78
+R6
+r1
+!s85 0
+31
+R15
+R28
+R29
+!i113 1
+R8
+R9
+R10
+vlab8_soc_jtag_uart_0_sim_scfifo_r
+R0
+R1
+!i10b 1
+!s100 MQPU72YjY7DFfhF^mf0[N1
+In1:X<[SgBmb9nJ>liknZN0
+R2
+R25
+S1
+R3
+R24
+R26
+R27
+L0 164
+R6
+r1
+!s85 0
+31
+R15
+R28
+R29
+!i113 1
+R8
+R9
+R10
+vlab8_soc_jtag_uart_0_sim_scfifo_w
+R0
+R1
+!i10b 1
+!s100 >JPgS0GHLk=7InK:JSKdf1
+I5A_Kn4=cBjD?@`bo4GnZz0
+R2
+R25
+S1
+R3
+R24
+R26
+R27
+R5
+R6
+r1
+!s85 0
+31
+R15
+R28
+R29
+!i113 1
+R8
+R9
+R10
+vlab8_soc_keycode
+R0
+R1
+!i10b 1
+!s100 LkTL^?XKe1J15oJT;gz^73
+IE^8M`2W`0AP^11fkNbfDB0
+R2
+!s105 lab8_soc_keycode_v_unit
+S1
+R3
+R24
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_keycode.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_keycode.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_keycode.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_keycode.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0
+R0
+R22
+!i10b 1
+!s100 D5zKm^GQWeT>fUKBLXzRA1
+IS4FjMkB6b3D4i`i[Zo02n1
+R2
+!s105 lab8_soc_mm_interconnect_0_v_unit
+S1
+R3
+R23
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_avalon_st_adapter
+R0
+R22
+!i10b 1
+!s100 ]UOJKDBK:O8z@2Vn@WNa]3
+IRzc]cmJmDogA5bP7YMJ1K2
+R2
+!s105 lab8_soc_mm_interconnect_0_avalon_st_adapter_v_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R0
+R1
+!i10b 1
+!s100 V`im:a`SiWT2zFY6dmF=k0
+I`lP4?Skd6KKDI7<MC1ddY0
+R2
+!s105 lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_cmd_demux
+R0
+R11
+!i10b 1
+!s100 MB0Km7`:9H;YjL^mm4OU[1
+IIgce8@R5N48EP9]=R?1Nn2
+R2
+!s105 lab8_soc_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv
+Z30 L0 43
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_cmd_demux_001
+R0
+R11
+!i10b 1
+!s100 [H<LiACgc6HHVoSfM3Je:1
+I^jVOj46=BC>G5oRL=eR4o0
+R2
+!s105 lab8_soc_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv
+R30
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_cmd_mux
+R0
+R11
+!i10b 1
+!s100 cO?1ozS>Qg?k?8e3em9hC3
+IL8K>MglF<P^RO^g>EE;f83
+R2
+!s105 lab8_soc_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv
+Z31 L0 51
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_cmd_mux_001
+R0
+R11
+!i10b 1
+!s100 bCI@ih[jjUUOZehL:ee8P0
+II;T?ZK`A70zCz?BHci_kA3
+R2
+!s105 lab8_soc_mm_interconnect_0_cmd_mux_001_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv
+R31
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router
+R0
+R11
+!i10b 1
+!s100 _[Qc7A[I5fH<chRSII6ia3
+IoDXi]ac;JWRW;k58==LYk3
+R2
+Z32 !s105 lab8_soc_mm_interconnect_0_router_sv_unit
+S1
+R3
+R4
+Z33 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router.sv
+Z34 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router.sv
+Z35 L0 84
+R6
+r1
+!s85 0
+31
+R13
+Z36 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router.sv|
+Z37 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_001
+R0
+R11
+!i10b 1
+!s100 hikf^?gm@PITO[abWVi;U0
+IkaKRH5z7joe?=e[NS7]9l3
+R2
+Z38 !s105 lab8_soc_mm_interconnect_0_router_001_sv_unit
+S1
+R3
+R12
+Z39 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_001.sv
+Z40 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_001.sv
+R35
+R6
+r1
+!s85 0
+31
+R13
+Z41 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_001.sv|
+Z42 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_001.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_001_default_decode
+R0
+R11
+!i10b 1
+!s100 8jI;bj9k_iKo8[d=;3N0E1
+IMRNX5GgGTF?SM@7<X7RCC2
+R2
+R38
+S1
+R3
+R12
+R39
+R40
+Z43 L0 45
+R6
+r1
+!s85 0
+31
+R13
+R41
+R42
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_002
+R0
+R11
+!i10b 1
+!s100 nJch>Acm>T4209Nce;4<m3
+I^Dc0cXeeC3OoiLV`l[VaB2
+R2
+Z44 !s105 lab8_soc_mm_interconnect_0_router_002_sv_unit
+S1
+R3
+R12
+Z45 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_002.sv
+Z46 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_002.sv
+R35
+R6
+r1
+!s85 0
+31
+R13
+Z47 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_002.sv|
+Z48 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_002.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_002_default_decode
+R0
+R11
+!i10b 1
+!s100 hnbLQQ9Od8<l``Sd__9dL1
+IYm`H9YIaLF2dNzkIWcH6D1
+R2
+R44
+S1
+R3
+R12
+R45
+R46
+R43
+R6
+r1
+!s85 0
+31
+R13
+R47
+R48
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_003
+R0
+R11
+!i10b 1
+!s100 ikM5WZD2GUFi3MMXEn0QH2
+Id3QGm:J5AgB8GUgTA8g<o0
+R2
+Z49 !s105 lab8_soc_mm_interconnect_0_router_003_sv_unit
+S1
+R3
+R12
+Z50 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_003.sv
+Z51 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_003.sv
+R35
+R6
+r1
+!s85 0
+31
+R13
+Z52 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_003.sv|
+Z53 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_003.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_003_default_decode
+R0
+R11
+!i10b 1
+!s100 7F[Zz0XSHUhH47@6PELT32
+IKWl`Y51kAmTCFP67@fN@]0
+R2
+R49
+S1
+R3
+R12
+R50
+R51
+R43
+R6
+r1
+!s85 0
+31
+R13
+R52
+R53
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_router_default_decode
+R0
+R11
+!i10b 1
+!s100 VQc;MF]RW3n85QKTOok9P3
+I@JLCdOW:h?gEWkTRbMQgA2
+R2
+R32
+S1
+R3
+R4
+R33
+R34
+R43
+R6
+r1
+!s85 0
+31
+R13
+R36
+R37
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_rsp_demux
+R0
+R11
+!i10b 1
+!s100 WhK:<;8clWko2T@HB19jc1
+IGeJf63U[1TmSPaA@A>FCN2
+R2
+!s105 lab8_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv
+R30
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_rsp_demux_001
+R0
+R11
+!i10b 1
+!s100 27NgJ_IF`m8h8mU:g^if@3
+IHFGIgnjcJ=3N;;Y0XzjK>3
+R2
+!s105 lab8_soc_mm_interconnect_0_rsp_demux_001_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv
+R30
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_rsp_mux
+R0
+R11
+!i10b 1
+!s100 z2TKiVS8^f`:b=miHlcgS0
+IZgXQkV@aBCe5<g7c]VKg]3
+R2
+!s105 lab8_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv
+R31
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_mm_interconnect_0_rsp_mux_001
+R0
+R11
+!i10b 1
+!s100 lgZOKzPL9gIB]DCe2jQV<1
+IZDW4MPDgE@oWJM05ZRT^D1
+R2
+!s105 lab8_soc_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R3
+R12
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv
+R31
+R6
+r1
+!s85 0
+31
+R13
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0
+R0
+R1
+!i10b 1
+!s100 nK3kG=o;j^G0PA^LPb6YM2
+ILh8O8ZjTFaYk02LjKOnMT0
+R2
+!s105 lab8_soc_nios2_gen2_0_v_unit
+S1
+R3
+Z54 w1714913167
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0.v
+L0 9
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu
+R0
+R1
+!i10b 1
+!s100 PQc9:mRS04]E4M51>jThU2
+I67;``@EAzUIcHZ34hWKX52
+R2
+Z55 !s105 lab8_soc_nios2_gen2_0_cpu_v_unit
+S1
+R3
+R4
+Z56 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.v
+Z57 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.v
+L0 2834
+R6
+r1
+!s85 0
+31
+R15
+Z58 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.v|
+Z59 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+R0
+R1
+!i10b 1
+!s100 86lY@<K>ZcWYCRN2dC_^P2
+Ii2P06o`27=1k;inNZ6j293
+R2
+!s105 lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk_v_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_debug_slave_tck
+R0
+R1
+!i10b 1
+!s100 2>GziMEC_cOEb9kM3582X2
+IBG92;=T:[j;OaNCR>mGTO3
+R2
+!s105 lab8_soc_nios2_gen2_0_cpu_debug_slave_tck_v_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+R0
+R1
+!i10b 1
+!s100 FmFz6WE=La;A1O4909<jb0
+Ibg[^W1@^U<[OQC_h2]S1n1
+R2
+!s105 lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper_v_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+R0
+R1
+!i10b 1
+!s100 _=bS@_em5:[N8zX0;;Y2e0
+IF0Dg3i81M8OPggCz[5TIm3
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 2023
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci
+R0
+R1
+!i10b 1
+!s100 iRO4aF1^RT<jZ[g0F[Omg3
+IdP[m9VEXKdbjeS<EQlb3G1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 2362
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_break
+R0
+R1
+!i10b 1
+!s100 _aIm1[^bCjV^dch;TMB5X3
+I6l]edhAolaR5WJ83L[21?0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 295
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R0
+R1
+!i10b 1
+!s100 ]1CXBeC;R@`<6]jV?;W910
+I6[MilUGm4HIibMn83g9:A1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1265
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R0
+R1
+!i10b 1
+!s100 LCgC_B[RH=go7:W]^8YAc2
+IX]N0;zO6j]OfdcSaKDe_b2
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 795
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R0
+R1
+!i10b 1
+!s100 0K:MVO]ke_ZWJG`HP@;3k2
+IMWHJ<0W3T_8WX6VeTlVBA3
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 153
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R0
+R1
+!i10b 1
+!s100 8a;IG[LF<:T3=]^LUY_>H1
+IV]OV@[6zPObN<aP8L2BQI0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1183
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R0
+R1
+!i10b 1
+!s100 W_I6D^mFXhIknR:YFQ9WO1
+I_cUbdSP3a`o9DLb76]Uo@0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1427
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R0
+R1
+!i10b 1
+!s100 4RbX:73m;8I34<04HW_>k0
+IN9o:7j3Y4[a?B8gQSdFnP0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1380
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R0
+R1
+!i10b 1
+!s100 I_X<OaDB3oFPPh@E3U_Sg2
+I0l>X59`GNXMSDWQQUYfZ72
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1337
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_im
+R0
+R1
+!i10b 1
+!s100 U[P1`BYXEZSZYPgbHFYef3
+I3U?inANXY^^ag_5bz7TeN1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1936
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R0
+R1
+!i10b 1
+!s100 C5c<HY3hgUfJ5FZRQ0:4>3
+IFTg9n1m0Q57fGGnkK5PUk3
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 982
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R0
+R1
+!i10b 1
+!s100 7[aiWmQEI:5:C`JTFcg]H0
+I=<VjAcX8K7m6ZPL7O9Wjm0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1913
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R0
+R1
+!i10b 1
+!s100 P`6GPA43nTXUG4o8eR;8C2
+IF9]g60A_abJAR?Hd@=`8N1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 1115
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R0
+R1
+!i10b 1
+!s100 Y`:1OCD]Y0OZJ>`eQgmgX2
+I4Zc217zB^I47LXHT<H=Q`1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 588
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_ocimem
+R0
+R1
+!i10b 1
+!s100 ocl87Y;]?FGIoVj85j5zO0
+Ia:WGc^j7zihdT4ELb3XZj2
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 2181
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R0
+R1
+!i10b 1
+!s100 kfPSmia6DbZUSK5hSn97B2
+IRkb1Mno3kFEV4DV5nBm1X3
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 2006
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R0
+R1
+!i10b 1
+!s100 S3SHOo4V=<GcCB5h:[nZ63
+IL4^LDRJJ?Oo>DjdDh;<[Y1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 2116
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_register_bank_a_module
+R0
+R1
+!i10b 1
+!s100 `SgJ`1IH6TXoaB<Ma>Bf`2
+INCf5obCHz>dUAP3Mh=@Nj0
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+R5
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_register_bank_b_module
+R0
+R1
+!i10b 1
+!s100 BCa6iCcmW9SMenS[HzoKY2
+IIkATo29]D0LNlVBgo;O:K1
+R2
+R55
+S1
+R3
+R4
+R56
+R57
+L0 87
+R6
+r1
+!s85 0
+31
+R15
+R58
+R59
+!i113 1
+R8
+R9
+R10
+vlab8_soc_nios2_gen2_0_cpu_test_bench
+R0
+R1
+!i10b 1
+!s100 R[zaHIn0lDeHMPB5X2H]T3
+Ikn32:L1P>A7`Cf?3;8_Ua3
+R2
+!s105 lab8_soc_nios2_gen2_0_cpu_test_bench_v_unit
+S1
+R3
+R4
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_onchip_memory2_0
+R0
+R1
+!i10b 1
+!s100 i`HGnOTL7TNeL`jSjPVWf1
+Ig=UhdPN0h:`Se6G_Mi8zE3
+R2
+!s105 lab8_soc_onchip_memory2_0_v_unit
+S1
+R3
+R54
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_otg_hpi_address
+R0
+R1
+!i10b 1
+!s100 ZKLJldXRi_can7P1GYH[=1
+Iho;B4G=WBA3383K489m_12
+R2
+!s105 lab8_soc_otg_hpi_address_v_unit
+S1
+R3
+R54
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_otg_hpi_cs
+R0
+R1
+!i10b 1
+!s100 W:oM4@<iLW9gcSiBUU4zL0
+IeUTSM;7bnXzMGF9>7UR]R2
+R2
+!s105 lab8_soc_otg_hpi_cs_v_unit
+S1
+R3
+R54
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_otg_hpi_data
+R0
+R1
+!i10b 1
+!s100 ?9]J=do]LW^:l7:KM_UBI2
+I`aYkmf]=d3R15DYQRHL=T0
+R2
+!s105 lab8_soc_otg_hpi_data_v_unit
+S1
+R3
+R54
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v
+R5
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram
+R0
+R1
+!i10b 1
+!s100 I97?>CZF^^zB[l:hCLgGN3
+I3JWRh4XP_8JR]ER3TGOAG0
+R2
+Z60 !s105 lab8_soc_sdram_v_unit
+S1
+R3
+Z61 w1714913168
+Z62 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram.v
+Z63 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram.v
+L0 159
+R6
+r1
+!s85 0
+31
+R15
+Z64 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram.v|
+Z65 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram_input_efifo_module
+R0
+R1
+!i10b 1
+!s100 F9C1^QiTeJo1@`z<9OZYI3
+I7TNGNBD1EF7In`X]R@6FW1
+R2
+R60
+S1
+R3
+R61
+R62
+R63
+R5
+R6
+r1
+!s85 0
+31
+R15
+R64
+R65
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram_pll
+R0
+R1
+!i10b 1
+!s100 bSU9^=HWUVMlLWfNP4Z0j1
+IB3OjNS=V?aV;`^04<nfJ=2
+R2
+Z66 !s105 lab8_soc_sdram_pll_v_unit
+S1
+R3
+R61
+Z67 8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v
+Z68 FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v
+L0 217
+R6
+r1
+!s85 0
+31
+R15
+Z69 !s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v|
+Z70 !s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v|
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram_pll_altpll_lqa2
+R0
+R1
+!i10b 1
+!s100 6AgNoKRm?=X8V^>i7;7Iz1
+I]L0XIAig0LYG74E<`_@Le2
+R2
+R66
+S1
+R3
+R61
+R67
+R68
+L0 130
+R6
+r1
+!s85 0
+31
+R15
+R69
+R70
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram_pll_dffpipe_l2c
+R0
+R1
+!i10b 1
+!s100 TEWBeOnHfAf7Vn4]QaCeo2
+In3Tgo2bdHF1E3lm]dbGCP0
+R2
+R66
+S1
+R3
+R61
+R67
+R68
+L0 37
+R6
+r1
+!s85 0
+31
+R15
+R69
+R70
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sdram_pll_stdsync_sv6
+R0
+R1
+!i10b 1
+!s100 5m9?5T9QlIa?OU_>MO20g0
+Id>zBY0di@7oT23c[>]RaP0
+R2
+R66
+S1
+R3
+R61
+R67
+R68
+L0 98
+R6
+r1
+!s85 0
+31
+R15
+R69
+R70
+!i113 1
+R8
+R9
+R10
+vlab8_soc_sysid_qsys_0
+R0
+R1
+!i10b 1
+!s100 Uc;kAb1ZD:W70B27F6G7]2
+I`EaJ>amdn0PG4NWLAFc]L3
+R2
+!s105 lab8_soc_sysid_qsys_0_v_unit
+S1
+R3
+R61
+8D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v
+FD:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v
+R21
+R6
+r1
+!s85 0
+31
+R15
+!s107 D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-sv|-work|lab8_soc|+incdir+D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules|D:/ZJUI/111/ECE385/flappybird/main/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v|
+!i113 1
+R8
+R9
+R10

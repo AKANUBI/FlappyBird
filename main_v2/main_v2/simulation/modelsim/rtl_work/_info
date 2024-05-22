@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ZJUI/111/ECE385/flappybird/main/simulation/modelsim
+vvga_clk
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1714918935
+!i10b 1
+!s100 n5K]j=@=8Fg<XzOF?fd;R2
+I[LX71lL>N<d32`L9ZGR1>1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 vga_clk_v_unit
+S1
+R0
+w1710223541
+8D:/ZJUI/111/ECE385/flappybird/main/vga_clk.v
+FD:/ZJUI/111/ECE385/flappybird/main/vga_clk.v
+L0 39
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1714918935.000000
+!s107 D:/ZJUI/111/ECE385/flappybird/main/vga_clk.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ZJUI/111/ECE385/flappybird/main|D:/ZJUI/111/ECE385/flappybird/main/vga_clk.v|
+!i113 1
+Z6 o-sv -work work
+!s92 -sv -work work +incdir+D:/ZJUI/111/ECE385/flappybird/main
+Z7 tCvgOpt 0
+vvga_clk_altpll
+R1
+R2
+!i10b 1
+!s100 9l?S;KjoGI2U4GzVnSh6M0
+I7E`B@kU@URMcJL@VGh<zB3
+R3
+!s105 vga_clk_altpll_v_unit
+S1
+R0
+w1710223551
+8D:/ZJUI/111/ECE385/flappybird/main/db/vga_clk_altpll.v
+FD:/ZJUI/111/ECE385/flappybird/main/db/vga_clk_altpll.v
+L0 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/ZJUI/111/ECE385/flappybird/main/db/vga_clk_altpll.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ZJUI/111/ECE385/flappybird/main/db|D:/ZJUI/111/ECE385/flappybird/main/db/vga_clk_altpll.v|
+!i113 1
+R6
+!s92 -sv -work work +incdir+D:/ZJUI/111/ECE385/flappybird/main/db
+R7
